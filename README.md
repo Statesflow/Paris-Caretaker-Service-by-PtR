@@ -19,8 +19,8 @@ Paris Caretaker Service by Ptr (Place to Rest)
 
 Requirements
 ------
-1. PHP min v.8
-2. DB server (Recommended:MySQL or PgSQL)
+1. PHP min v.8.2
+2. DB server (Recommended:MySQL)
 3. [composer min v.2](https://getcomposer.org/)
 4. For other requirements of check  [Laravel](https://laravel.com/)
 
@@ -32,7 +32,8 @@ Setup Directions
 4. Set database infos in the .env
 5. ```php artisan migrate --seed```
 6. ```php artisan key:generate```
-7. ```php artisan serve```
-
+7. ```npm install```
+8. ```npm run dev```
+9. ```php artisan serve```
 
 </div>
